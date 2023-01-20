@@ -4,11 +4,11 @@ const ContentOne = () => {
   return (
     <div className="row align-items-center">
       <img
-        className="col-sm-5 col-xs-12 img-fluid"
+        className="col-sm-6 col-xs-12 img-fluid"
         src="https://ik.imagekit.io/deui/woman-at-cpu.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673902737487"
         alt="Illustration is here"
       />
-      <div className="col-sm-7 col-xs-12 pt-2">
+      <div className="col-sm-6 col-xs-12 pt-2">
         <h3 className="subtitle">How does Surge Protection Plan work?</h3>
         <p>
           Direct Energy's Surge Protect plans provides up to a total of $2000 in
