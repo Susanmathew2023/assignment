@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 1em;
+  background-color: #fff;
+}
+
+body * {
+  font-family: 'Roboto';
+  font-size: 1em;
+  color: #38454A;
+}
+
+.container {
+  width: 1440px;
+}
+
+.container-fluid {
+  width: 100%;
+  font-family: 'Roboto'
+}
+
+
+p {
+  color: #38454A
+}
+
+
+/*24px */
+h2 {
+  font-size: 2.6em !important;
+}
+
+/*42px*/
+h3 {
+  font-size: 1.5emx !important;
+}
+
+/*36px */
+h1 {
+  font-size: 2.1em !important;
+}
+
+
+/*22px */
+h4.subtitle {
+  font-size: 1.2em !important;
+  font-weight:bold
+ }
+
+.border-box{
+  box-shadow: 0 .1rem .5rem rgba(0,0,0,.15)!important;
+  margin-bottom:20px;
+  padding:20px
+}
+
+
+/* currency */
+.currency{font-size:2.813;}
+.section-bg {
+  background: #FAFAFA
+}
+
+.main-bg {
+  /* Curved corners */
+
+  height: 400px;
+}
+
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+.banner-image {
+  /*   -moz-transform:scale(0.60);
+-webkit-transform:scale(0.60);
+transform:scale(0.60); */
+  width: 350px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+
+.title {
+  margin-top: 100px;
+}
+
+.subtitle {
+  color: #005876
+}
+
+
+.curved-bottom {
+  background-color: #FAFAFA;
+  background-image: url("https://ik.imagekit.io/deui/gray-curve.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1673902738418;");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  height: 550px;
+  background-size: contain;
+  background-origin: border-box;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+.flex-row {
+  flex-direction: row !important;
+}
+.content-box{
+  flex-direction: column !important;
+}
+
+  @media only screen and (min-width: 1030px)   
+ {  
+   .content-item{
+    width:45%;
+    flex-direction: row;
+  }
+  .content-box{
+    flex-direction:row !important;
+  }
+
+ }  
+
+/* Responsive layout  */
+@media (max-width: 900px) {
+  .curved-bottom {
+    height: 80vh;
+  }
+
+
+}
+
+.icon-round{
+  background-color:rgb(202, 238, 249);
+  border-radius: 46%;
+  padding:10px;
+}
